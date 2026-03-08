@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'payment-service/**' # Só dispara se houver mudança nesta pasta
+      - 'services/payment-service/**' # Só dispara se houver mudança nesta pasta
       - 'k8s/payment-*.yaml'
 
 jobs:
