@@ -1,5 +1,6 @@
 
 Cloud Native Microservices Platform 🚀
+
 Esta plataforma demonstra uma arquitetura de microserviços moderna, resiliente e escalável, utilizando as melhores práticas de DevOps e Cloud Native. O projeto engloba desde a infraestrutura como código (IaC) até a observabilidade completa do cluster.
 
 🛠️ Stack Tecnológico
