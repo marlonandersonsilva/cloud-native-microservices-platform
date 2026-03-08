@@ -1,0 +1,17 @@
+# Ignore Terraform local directory
+.terraform/
+
+# Ignore state files (sensitive data)
+*.tfstate
+*.tfstate.*
+
+# Ignore variables that might contain secrets
+*.tfvars
+
+
+.terraform/
+*.tfstate*
+.terraform/
+*.tfstate*
+.terraform/
+*.tfstate*
