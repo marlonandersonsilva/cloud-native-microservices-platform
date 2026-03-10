@@ -66,5 +66,20 @@ helm install prometheus prometheus-community/kube-prometheus-stack -f k8s/monito
 
 # 3. Deploy Manual (Opcional - CI/CD faz automático)
 kubectl apply -f k8s/
+
+🚀 Configuração de Monitoramento
+
+2. Instalar Prometheus via Helm
+bash
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm install prometheus prometheus-community/kube-prometheus-stack -f k8s/monitoring/values.yaml
+
+
+📊 Dashboard Grafana
+
+<img width="1900" height="844" alt="image" src="https://github.com/user-attachments/assets/4d4d70f0-b4cf-4359-bf95-0b86d48ae940" />
+
+
+
 👨‍💻 Autor
 Marlon Silva - Senior Software Engineer / DevOps Enthusiast.
