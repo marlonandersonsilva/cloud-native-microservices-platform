@@ -77,7 +77,7 @@ helm install prometheus prometheus-community/kube-prometheus-stack -f k8s/monito
 
 📊 Dashboard Grafana
 
-<img width="1900" height="844" alt="image" src="https://github.com/user-attachments/assets/4d4d70f0-b4cf-4359-bf95-0b86d48ae940" />
+<img width="1902" height="853" alt="image" src="https://github.com/user-attachments/assets/03cfb619-0ee5-4f22-8a7a-d7519b613e29" />
 
 
 
